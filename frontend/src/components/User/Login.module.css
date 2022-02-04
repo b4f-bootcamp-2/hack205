@@ -1,0 +1,122 @@
+.hug{
+  max-width: 1000px;
+  display: flex;
+  margin-bottom: 0;
+  flex-direction: row ;
+  height: 600px;
+  position: relative;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8c6db;
+background-image: linear-gradient(250deg, #b8c6db 0%, #f5f7fa 74%);
+  font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+    'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
+.centerLogin {
+  height: 844px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  }
+
+.link {
+  color: #8a8585;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inputInformation {
+  text-align: center;
+  height: 37px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 30px;
+  border:grey solid 0.30px;
+  font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+  'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
+.headerLogin {
+  font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+  'DejaVu Sans Mono', Menlo, Consolas, monospace;
+  color: #070707;
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* EYES */
+.submitLente {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+  
+  .submitLine {
+    position: relative;
+    height: 30px;
+    margin: auto;
+    width: 70%;
+  }
+
+  .submitBtn {
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+    'DejaVu Sans Mono', Menlo, Consolas, monospace;
+    font-size:26px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(152, 157, 223);
+    color: black;
+    height: 60px;
+    width: 145px
+  }
+  
+  .submitLine button {
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+    'DejaVu Sans Mono', Menlo, Consolas, monospace;
+    font-size:26px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(152, 157, 223);
+    color: black;
+    height: 60px;
+    width: 145px
+  }
+
+  .msg {
+    color: #FF0000;
+    font-size: 12px;
+    font-weight: bolder;
+    width: 100%;
+    /* margin-top: 0px; */
+    
+    text-align: center;
+    border: 1px solid red;
+    height: 30px
+  }
+
+  .checkCircle {
+    color: rgb(105, 165, 45);
+  }
+  
+  .timesCircle {
+    color: rgb(216, 32, 32);
+  }
+
+  .forgotPass {
+    position: relative;
+    margin: auto;
+    margin-bottom: 8px;
+    width: 70%;
+    text-align: end;
+  }

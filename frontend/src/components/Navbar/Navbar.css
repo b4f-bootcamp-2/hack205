@@ -1,0 +1,16 @@
+.navbar {
+    background-color: rgb(207, 124, 118);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    justify-items: center;
+    padding-top: 20px;
+    height: 40px
+  }
+

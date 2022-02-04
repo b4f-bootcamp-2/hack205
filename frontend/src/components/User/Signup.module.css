@@ -1,0 +1,189 @@
+body {
+  font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+    'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
+
+.centerSignUp {
+  background-color: #b8c6db;
+background-image: linear-gradient(250deg, #b8c6db 0%, #f5f7fa 74%);
+  font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+    'DejaVu Sans Mono', Menlo, Consolas, monospace;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: auto;
+    padding: 20px;
+    height: 844px;
+    margin-bottom: 0;
+    /* min-height: 60vh; */
+    box-sizing: border-box;
+  }
+  
+  .inputSignUpInformation {
+    text-align: center;
+  height: 37px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 30px;
+  border:grey solid 0.30px;
+  font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+  'DejaVu Sans Mono', Menlo, Consolas, monospace;
+  }
+  
+  .btn {
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+    'DejaVu Sans Mono', Menlo, Consolas, monospace;
+    font-size:26px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(207, 124, 118);
+    color: black;
+    height: 60px;
+    width: 145px
+  }
+
+  
+  .signUpHeader {
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+    'DejaVu Sans Mono', Menlo, Consolas, monospace;
+    color: #070707;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  
+  .submitLine {
+    margin-bottom: 10px;
+    margin-top:10px;
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+    'DejaVu Sans Mono', Menlo, Consolas, monospace;
+    width:200px;
+    height: 35px;
+  }
+  
+  
+  /* SWITCH BUTTON */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 30px; /*60*/
+    height: 14px; /*34*/
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 10px; /*26*/
+    width: 10px;
+    left: 1px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196f3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  .acceptsTerms {
+    margin-top: -17px;
+    height: 10px;
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace,
+    'DejaVu Sans Mono', Menlo, Consolas, monospace;
+  }
+  
+  
+  .switchPlace {
+    margin-top: 20px;
+    margin-left: -150px;
+  }
+  
+  .msg {
+    color: #FF0000;
+    font-size: 12px;
+    font-weight: bolder;
+    width: 100%;
+    /* margin-top: 0px; */
+    
+    text-align: center;
+    height: 30px
+  }
+  
+  .msgAcceptsTerms {
+    color: #FF0000;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    text-align: center;
+    height: 30px;
+  }
+  
+  .checkCircle {
+    color: rgb(105, 165, 45);
+  }
+  
+  .timesCircle {
+    color: rgb(216, 32, 32);
+  }
+  
+  .hug{
+    max-width: 1000px;
+    display: flex;
+    margin-bottom: 0;
+    flex-direction: row ;
+    height: 600px;
+    position: relative;
+  }
+  
+  .gif {
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+  
